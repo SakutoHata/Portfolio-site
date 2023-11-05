@@ -1,0 +1,127 @@
+/*共通*/
+img {
+    max-width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*header*/
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+}
+
+li {
+    padding: 16px;
+    text-align: center;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        padding: 16px 0;
+    }
+    .header_menu{
+        width: 100%;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        width: 50%;
+        border: 1px solid #d8d8d8;
+    }
+}
+
+/*About*/
+.about_area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about_area-img {
+    width: 50%;
+}
+
+.about_area-description{
+    width: 50%;
+    padding: 16px;
+}
+
+.about_area-description-icon {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+}
+
+.fa-github {
+    color: black;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .about_area-img {
+        width: 100%;
+    }
+    .about_area-description{
+        width: 100%;
+    }
+}
+
+/*Activity*/
+#activity h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.activity-icon {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+/*Skills*/
+#skill h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skill-icon {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.text{
+    text-align: center;
+}
+
+/*Profile*/
+#profile h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
