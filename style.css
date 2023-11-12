@@ -98,6 +98,16 @@ li a {
     margin-bottom: 40px;
 }
 
+.activity-card {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px; /* カードの余白を追加 */
+    border: 1px solid #ccc; /* カードにボーダーを追加 */
+    border-radius: 5px; /* カードを角丸にする */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* カードに影を追加 */
+    height:486.2px;
+}
+
 .activity-icon {
     text-align: center;
     font-size: 50px;
@@ -110,6 +120,16 @@ li a {
     margin-bottom: 40px;
 }
 
+.skill-card {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px; /* カードの余白を追加 */
+    border: 1px solid #ccc; /* カードにボーダーを追加 */
+    border-radius: 5px; /* カードを角丸にする */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* カードに影を追加 */
+    height:582.2px;
+}
+
 .skill-icon {
     text-align: center;
     font-size: 50px;
@@ -118,6 +138,19 @@ li a {
 
 .text{
     text-align: center;
+    /*アニメーション追記*/
+    animation: fadeIn 5s ease 1s 1 normal backwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;/*初期状態では透明に*/
+        transform: translateY(64px);
+      }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /*Profile*/
