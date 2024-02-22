@@ -105,7 +105,7 @@ li a {
     border: 1px solid #ccc; /* カードにボーダーを追加 */
     border-radius: 5px; /* カードを角丸にする */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* カードに影を追加 */
-    height:486.2px;
+    height:530.2px;
 }
 
 .activity-icon {
